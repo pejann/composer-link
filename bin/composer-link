@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+<?php
+require_once __DIR__ . '/../src/App.php';
+
+use Pejann\ComposerLink\App;
+
+$app = new App();
+$app->execute();

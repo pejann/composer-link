@@ -1,0 +1,21 @@
+{
+    "name": "pejann/composer-link",
+    "version": "1.0.0",
+    "description": "",
+    "type": "library",
+    "bin": ["bin/composer-link"],
+    "authors": [
+        {
+            "name": "Pedro Jannotti",
+            "email": "pedrojnt@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pejann\\ComposerLink\\": "src"
+        }
+    }
+}
